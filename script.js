@@ -1,7 +1,7 @@
 let formulario = 
     document.querySelector(".formulario");
     //função para aparecer o form
-    function AparecerFormulario(){
+    function aparecerformulario(){
         formulario.style.left="50%"
     }
     //função para desaparecer o form
