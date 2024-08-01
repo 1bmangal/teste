@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hariz</title>
+</head>
+<body>
+   <img src="./img/logo.png" alt="logo da tesla" class="logo">
+   <ul class="lista">
+    <li class="item">
+        <video src="./video/model-y.mp4" muted loop autoplay></video>
+        <div class="info_carro">
+            <h1>Model Y</h1>
+            <p class="sub_titulo">
+                parcelas a partir
+                de 499 dólares
+            </p>
+        </div>
+        <div class="rodape">
+            <button onclick="AparecerFormulario">
+                Comprar agora
+            </button><button class="teste_drive">
+                faça um test-drive
+            </button>
+            <p class="texto_rodape">
+                nao garantimos seu veiculo imediatamente. Consultar estoque.
+            </p>
+        </div>
+    </li>
+    <li class="item">
+        <img src="img/model-3.png" alt="carro1">
+        <div class="info_carro">
+            <h1>Model 3</h1>
+            <p class="info_carro">
+                compre agora o seu Tesla
+            </p>
+            </div>
+    </li>
+    <li class="item">
+        <img src="./img/model-x.png" alt="carro2">
+        <div class="info_carro">
+            <h1>Model x</h1>
+            <p class="info_carro">
+                parcelas a partir de 499 dolares
+            </p>
+            </div>
+    </li>
+   </ul>
+   <div class="formulario">
+    <button onclick="desaparecerformulario()">Fechar</button>
+    <form>
+        <input type="text" placeholder="Nome">
+        <br>
+        <input type="email" placeholder="Email">
+    </form>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>
