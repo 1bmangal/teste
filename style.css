@@ -1,0 +1,411 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #B4A5C2;
+}
+
+.header{
+    background-color: #a058e4;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+header .logo{
+    font-family: 'Protest Revolution', Arial, Helvetica, sans-serif;
+    background-color: #a058e4;
+}
+.image-carrinho{
+    background-color: #a058e4;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5px;
+}
+.divUsu{
+    background-color: #a058e4;
+}
+img{
+    width: 20px;
+}
+.div-h1{
+    background-color: #a058e4;
+}
+.div-links{
+    width: 20vw;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Protest Revolution' ;
+    background-color: #a058e4;
+
+}
+
+.div-links a{
+    text-decoration: none;
+    color: black;
+    background-color: #a058e4;
+}
+
+.image-usuario{
+   background-color: #a058e4; 
+}
+
+section{
+    display:flex;
+    justify-content: center;
+}
+
+.trailer{
+    width: 20px;
+    height: 100px;
+    margin: 0;
+}
+.esquerda{
+    margin-left: 200px;
+    background-color: black;
+    width:200px;
+}
+.trailer-container{
+    width: 200px;
+    height: 600px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.esquerda{
+    margin-left: 20px;
+}
+
+.trailer-container{
+    width: 200px;
+    height: 600px;
+    display: flex;
+    animation: slideAnimation 18s infinite ease-in-out;
+    animation-play-state: running /*Estado inicial*/;
+}
+/*
+.trailer-image{
+    width: 70vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.button-container{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff00;
+}
+
+.trailer-button{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.trailer-button:hover{
+    background-color: #888;
+}
+
+/*Pausa a animação com o cursor clica nos botões*/
+.trailer-button:hover ~ .trailer-container{
+    animation-play-state: paused;
+}
+/*
+.trailer-container:hover{
+    animation-play-state: running 1s;
+}
+
+#slider1:target ~ .trailer-container{
+    animation: none;
+    transform: translateX(30vw);
+}
+#slider2:target ~ .trailer-container{
+    animation: none;
+    transform: translateX(-70vw);
+}
+
+#slider3:target ~ .trailer-container{
+    animation: none;
+    transform: translateX(-140vw);
+}
+#slider4:target ~ .trailer-container{
+    animation: none;
+    transform: translateX(-210vw);
+}
+
+/*Animação*//*
+@keyframes slideAnimation{
+    0% {transform: translateX(0);}
+    25%{transform: translateX(-70vw);}
+    50%{transform: translateX(-140vw);}
+    75%{transform: translateX(-210vw)}
+    100%{transform: translateX(0);}
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header {
+    background-color: #a058e4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo {
+    font-family: 'Protest Revolution', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    background-color: #a058e4;
+}
+
+.div-links {
+    background-color: #a058e4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #a058e4;
+}
+
+.image-usuario, .image-carrinho {
+    width: 30px;
+    height: 30px;
+    background-color: #a058e4;
+    cursor: pointer;
+}
+
+.divUsu {
+    background-color: #a058e4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    
+}
+
+.product-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product-images {
+    background-color: #a058e4;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.product-info {
+    background-color: #a058e4;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.price{
+    background-color: #a058e4;
+}
+.prec {
+    font-size: 2em;
+    font-weight: bold;
+    color: #007600;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.actions {
+    display: flex;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #a058e4;
+}
+
+.action-button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f0a500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #d88b00;
+}
+
+footer {
+    background-color: #a058e4;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+/* Carrossel de Imagens */
+.trailer {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+
+.trailer-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    animation: slideAnimation 18s infinite ease-in-out;
+}
+
+.trailer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff00;
+}
+
+.trailer-button {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.trailer-button:hover {
+    background-color: #888;
+}
+
+.trailer-button:hover ~ .trailer-container {
+    animation-play-state: paused;
+}
+
+.trailer-container:hover {
+    animation-play-state: running 1s;
+}
+
+/* Animação de transição das imagens */
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#slider1:target ~ .trailer-container {
+    animation: none;
+    transform: translateX(0);
+}
+
+#slider2:target ~ .trailer-container {
+    animation: none;
+    transform: translateX(-100%);
+}
+
+#slider3:target ~ .trailer-container {
+    animation: none;
+    transform: translateX(-200%);
+}
+
+#slider4:target ~ .trailer-container {
+    animation: none;
+    transform: translateX(-300%);
+}
