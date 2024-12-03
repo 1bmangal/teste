@@ -258,6 +258,167 @@ section {
     background-color: #a058e4;
     
 }
+.product-container1 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/slider_produto_ragnarok/ragnarokpretoebranco.jpg);
+    background-color: #a058e4;
+    
+}
+.product-container2 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_darksouls1/darksoul1fundo.jpg);
+    background-color: #a058e4;
+}
+.product-container3 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_darksouls2/darksoul2fundo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container4 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_darksouls3/darksouls3logo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container5 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produtos_raibowsix/raibowfundo.png);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container6 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_stardew/stardewfundo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container7 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_sekiro/sekirologo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container8 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_cyberpunk/cyberlogo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container9 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_ragnarok/ragnarokpretoebranco.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
 .product .product-container {
     width: auto;
 }
@@ -309,7 +470,8 @@ section {
 }
 .name{
     background: linear-gradient(90deg,  rgba(160,88,228,0) 100%, rgba(160,88,228,0) 100%);
-    color: black;
+    color: white;
+    font-size: 30px;
 }
 .aval{
     margin-top: 40px;
