@@ -175,14 +175,17 @@ header {
     align-items: center;
 }
 
-header .logo {
-    font-family: 'Protest Revolution', Arial, Helvetica, sans-serif;
+header .logo{
+    /* font-family: "Protest Revolution", sans-serif; */
+    font-family: "Protest Revolution";
     display: flex;
     font-size: 24px;
     color: #fff;
     background-color: #a058e4;
 }
-
+h1{
+    font-family: 'Protest Revolution';
+}
 .header{
     display: flex;
     gap: 1450px;
@@ -418,6 +421,60 @@ section {
     background-image: url(./img/sliders/slider_produto_ragnarok/ragnarokpretoebranco.jpg);
     background-size: cover;
     background-color: #a058e4;
+}
+.product-container10 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_elden/eldenlogo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container11 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_demon/demonlogo.png);
+    background-size: cover;
+    background-color: black;
+}
+.product-container12 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_legends/arceuslogo.jpg);
+    background-size: cover;
+    background-color: black;
 }
 .product .product-container {
     width: auto;
