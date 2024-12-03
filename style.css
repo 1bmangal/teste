@@ -87,7 +87,7 @@ section{
     display: flex;
     animation: slideAnimation 18s infinite ease-in-out;
     animation-play-state: running /*Estado inicial*/;
-}
+/*}*/
 /*
 .trailer-image{
     width: 70vw;
@@ -121,9 +121,9 @@ section{
 }
 
 /*Pausa a animação com o cursor clica nos botões*/
-.trailer-button:hover ~ .trailer-container{
+/*.trailer-button:hover ~ .trailer-container{
     animation-play-state: paused;
-}
+}*/
 /*
 .trailer-container:hover{
     animation-play-state: running 1s;
@@ -165,6 +165,9 @@ section{
     background-color: black;
 }
 
+body{
+    background-color: black;
+}
 header {
     background-color: #a058e4;
     display: flex;
@@ -182,7 +185,7 @@ header .logo {
 
 .header{
     display: flex;
-    gap: 1500px;
+    gap: 1450px;
     justify-content: space-around;
     background-color: #a058e4;
 }
