@@ -548,6 +548,96 @@ section {
     background-size: cover;
     background-color: black;
 }
+.product-container17 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_platinum/platinumlogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.product-container18 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_hades/hadeslogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.product-container19 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_RK/kinglogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.product-container20 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_towers/towerlogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.product-container21 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_gtav/gtavlogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
 .product .product-container {
     width: auto;
 }
