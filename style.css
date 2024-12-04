@@ -638,6 +638,24 @@ section {
     background-size: cover;
     background-color: black;
 }
+.product-container22 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_gtaIV/IVlogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
 .product .product-container {
     width: auto;
 }
